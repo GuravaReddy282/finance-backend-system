@@ -77,3 +77,16 @@ Example summary response:
 
 }
 
+##  Running Locally
+
+To run this project locally:
+
+1. Install dependencies:
+pip install fastapi uvicorn sqlalchemy
+
+2. Run the server:
+uvicorn main:app --reload
+
+3. Open in browser:
+http://127.0.0.1:8000/docs
+
